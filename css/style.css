@@ -48,3 +48,15 @@ a {
 }
 
 /* Main Section */
+
+.leftcontainer {
+  width: 630px;
+}
+
+.centercontainer {
+  width: 300px;
+}
+
+.rigthcontainer {
+  width: 240px;
+}
