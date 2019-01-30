@@ -10,7 +10,7 @@ header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   position: fixed;
   width: 100%;
@@ -20,6 +20,20 @@ header {
   background-color: white;
 }
 
-.header span {
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 30px
+
+}
+.logo span {
   color: mediumaquamarine;
+  margin-left: 10px;
+}
+
+header nav {
+  padding-right: 40px;
+  display: block;
+  display: flex-end;
 }
