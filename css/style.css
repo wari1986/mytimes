@@ -5,7 +5,7 @@ body {
   color: black;
   display: block;
 }
-/* Header Section*/
+/* Header Section */
 header {
   font-family: Verdana;
   font-size: 14px;
@@ -37,3 +37,14 @@ header nav {
   display: block;
   display: flex-end;
 }
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+a {
+  color:black;
+}
+
+/* Main Section */
