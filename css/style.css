@@ -1,0 +1,15 @@
+/* Header Section*/
+header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  font-color: mediumaquamarine;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height:80px;
+  z-index: 1;
+  border-bottom: 1px solid black;
+  background-color: white;
+}
