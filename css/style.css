@@ -49,8 +49,62 @@ a {
 
 /* Main Section */
 
+.maincontainer {
+  display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 100px
+  font-family: georgia;
+  font-size: 17px;
+  color: black;
+}
+
 .leftcontainer {
   width: 630px;
+  display: inline-flex;
+  margin-right: 30px;
+  flex-direction: column;
+}
+
+.mainnote .imagetext {
+  background-image: url(/home/huari/Documents/projects/mytimes/css/images/img-story-main.png);
+  width: 630px;
+  margin-top: 0;
+  font-size: 40px;
+  text-align: left;
+}
+
+.imagetext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+
+.mainnote .textcontent {
+
+}
+
+.secondarynotes {
+  flex-direction: row;
+  align-items: stretch;
+  align-content: stretch;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+
+.secondarynote1 {
+  width: 315px;
+}
+
+.secondarynote2 {
+  width: 315px;
 }
 
 .centercontainer {
@@ -59,4 +113,37 @@ a {
 
 .rigthcontainer {
   width: 240px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.imagetextearth {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  background-image: url(/home/huari/Documents/projects/mytimes/css/images/img-story-2.png);
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 300px;
+  text-align: left;
+  position: relative;
+}
+
+.imagetextcamera {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  background-image: url(/home/huari/Documents/projects/mytimes/css/images/img-story-3.png);
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 300px;
+  text-align: left;
+  position: relative;
+}
+
+.leftthird {
+
 }
