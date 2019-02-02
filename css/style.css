@@ -59,6 +59,13 @@ a {
   color: black;
 }
 
+h2 {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+/* Left Column */
+
 .leftcontainer {
   width: 630px;
   display: inline-flex;
@@ -99,6 +106,20 @@ a {
   margin-top: 17px;
 }
 
+.secondarynote1 .imagetext {
+  background-image: url(/home/huari/Documents/projects/mytimes/css/images/img-story-2.png);
+  width: 315px;
+  font-size: 30px;
+  text-align: left;
+}
+
+.secondarynote2 .imagetext {
+  background-image: url(/home/huari/Documents/projects/mytimes/css/images/img-story-3.png);
+  width: 315px;
+  font-size: 30px;
+  text-align: left;
+}
+
 .secondarynote1 {
   width: 315px;
 }
@@ -107,42 +128,19 @@ a {
   width: 315px;
 }
 
+/* Center Column */
+
 .centercontainer {
   width: 300px;
 }
+
+/* Rigth Container */
 
 .rigthcontainer {
   width: 240px;
 }
 
-h2 {
-  font-weight: bold;
-  font-size: 30px;
-}
 
-.imagetextearth {
-  color: white;
-  font-size: 30px;
-  font-weight: bold;
-  background-image: url(/home/huari/Documents/projects/mytimes/css/images/img-story-2.png);
-  background-repeat: no-repeat;
-  height: 300px;
-  width: 300px;
-  text-align: left;
-  position: relative;
-}
-
-.imagetextcamera {
-  color: white;
-  font-size: 30px;
-  font-weight: bold;
-  background-image: url(/home/huari/Documents/projects/mytimes/css/images/img-story-3.png);
-  background-repeat: no-repeat;
-  height: 300px;
-  width: 300px;
-  text-align: left;
-  position: relative;
-}
 
 .leftthird {
 
