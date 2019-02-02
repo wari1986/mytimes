@@ -53,7 +53,7 @@ a {
   display: flex;
   width: 1232px;
   margin: 0 auto 78px auto;
-  padding-top: 100px
+  padding-top: 100px;
   font-family: georgia;
   font-size: 17px;
   color: black;
@@ -118,6 +118,7 @@ h2 {
   width: 315px;
   font-size: 30px;
   text-align: left;
+
 }
 
 .secondarynote1 {
@@ -132,6 +133,12 @@ h2 {
 
 .centercontainer {
   width: 300px;
+}
+
+.centersecond .imagetext {
+  background-image: url(/home/huari/Documents/projects/mytimes/css/images/img-story-1.png);
+  font-size: 30px;
+  text-align: left;
 }
 
 /* Rigth Container */
