@@ -147,7 +147,13 @@ h2 {
   width: 240px;
 }
 
+.rigthfirst {
+  text-align: center;
+}
 
+.rigthsecond p {
+  border-bottom: 1px solid black;
+}
 
 .leftthird {
 
